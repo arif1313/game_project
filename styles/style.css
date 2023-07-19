@@ -1,0 +1,27 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.commonmargin
+{
+margin: 0px 240px;
+}
+
+.navbar{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.menudiv>ul{
+    display: flex;
+    list-style: none;
+  
+}
+.menulist{
+    margin-right: 50px;
+
+}
+.menulist a{
+    text-decoration: none;
+}
+
