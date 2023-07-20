@@ -187,3 +187,10 @@ border: none;
     top: -80px;
     left: -30px;
 }
+.cariour_div{
+    display: flex;
+}
+.classimg img {
+    width: 800px;
+
+}
