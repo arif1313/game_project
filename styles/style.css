@@ -3,14 +3,12 @@
     margin: 0px;
 }
 .commonmargin
-{
-margin: 0px 240px;
-}
+
 
 .navbar{
     padding-top: 40px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 .nevtitle{
@@ -48,7 +46,7 @@ font-weight: 700;
     font-weight: 500; 
 }
 .menulistfollow{
- 
+
     border-radius: 8px;
 background: rgba(11, 2, 35, 0.10); 
     height: 1.1em;
@@ -61,4 +59,52 @@ background: rgba(11, 2, 35, 0.10);
     width: 18px;
     height: 18px;
     padding-left: .4em;
+}
+.goatsection{
+    margin-top: 2%;
+    background: url('/images/Group-14.png');
+ display: flex;
+gap: 50px; 
+ align-items: center; 
+ padding: 0px 240px 0px 0px;
+
+ 
+}
+   .goatdetails{
+    background: url('/images/Group-14.png');
+    width: 400px;
+    height: 300px;
+    padding-left: 200px;
+ padding-top: 200px;
+
+  background-size: contain;
+    
+   }
+.goatdetails h2{
+    
+    font-size: 24px;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase; 
+}
+.goatdetails h1{
+    font-size: 45px;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+color:  #F948B2;
+padding: 10px;
+
+
+    
+}
+   .goatdetails p{
+  
+    text-align: left;
+    padding: 5px;
+   }
+
+.goatimg img{
+    width: 500px;
+    height: 500px;
 }
